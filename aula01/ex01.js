@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout, // saída de dados
 });
 
-rl.question("infrome seu nome", (nome) => {
+rl.question("informe seu nome", (nome) => {
   //informar o nome
   console.log(`Olá, ${nome}!`); //captura o dado
   rl.close; // fecha a interface
