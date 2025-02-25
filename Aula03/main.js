@@ -77,7 +77,7 @@ function EditarContato(index) {
   let email = JSON.stringify(contato);
 
   //preenche o input
-  document.getElementById("nome").value = contato.nome; //(contato.nome) busca a propriedade do objeto, que dever ser uma String.
+  document.getElementById("nome").value = contato.nome; //(contato.nome) busca a propriedade do objeto que dever ser uma String.
   document.getElementById("telefone").value = contato.telefone;
   document.getElementById("email").value = contato.email;
 
