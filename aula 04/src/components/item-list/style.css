@@ -1,0 +1,24 @@
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+li div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+  left: 330px;
+}
+
+.info {
+  position: absolute;
+  left: 80%;
+}
+
+.darkMode {
+  color: #cbd5e1;
+}
