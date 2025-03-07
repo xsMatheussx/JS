@@ -1,0 +1,18 @@
+.container{
+    background-color: #ebebe6;
+    border-radius: 5px;
+    width: 290px;
+    border: 2px solid rgb(216, 208, 208);
+    
+    
+}
+.title{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 35px;
+}
