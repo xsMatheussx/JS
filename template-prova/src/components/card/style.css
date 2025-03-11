@@ -8,8 +8,9 @@
   border-bottom-left-radius: 36px;
   border-bottom-width: 2px;
   text-align: center;
+  margin-top: 20px;
 }
-.tags {
+/* .tags {
   width: 81px;
   height: 21px;
   border-radius: 100px;
@@ -25,7 +26,7 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   color: #c47f17;
-}
+} */
 .title {
   font-family: "Baloo 2", sans-serif;
   font-weight: 700;
@@ -105,4 +106,32 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -45px;
+  gap: 4px;
+}
+.tags-container {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .tag {
+  display: flex;
+  align-items: center;
+} */
+
+.tag span {
+  color: #c47f17;
+  background-color: #f1e9c9;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 100px;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+
 }

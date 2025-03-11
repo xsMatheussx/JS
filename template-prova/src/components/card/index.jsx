@@ -8,7 +8,11 @@ export function Card({ id, title, description, tags, price, image }) {
     <div className="container">
       <img className = "image" src={image} alt="" />
       <div className="tag">
-      <p className="tags">{tags}</p>
+      {tags.map((tag, index) => (
+          <div className="tag" key={index}>
+            <span>{tag}</span>
+          </div>
+        ))}
       </div>
      
       <h1 className="title">{title}</h1>
@@ -30,7 +34,9 @@ export function Card({ id, title, description, tags, price, image }) {
           </button>
         </div>
 
+        <button type="button">
         <LucideShoppingCart className="shopCar" size={35} color="white" />
+        </button>
       </div>
 
 
