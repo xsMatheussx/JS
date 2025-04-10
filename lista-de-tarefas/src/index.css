@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* fonts */
+  --defaultFont: font-family: "Inter", sans-serif;
+  --ag-input: 400 16px/140% var(--defaultFont);
+  --ag-subtitle: 600 14px/120% var(--defaultFont);
+  --ag-tag: 700 12px/120% var(--defaultFont);
+  --ag-text-sm: 400 12px/140% var(--defaultFont);
+
+  /* colors */
+  --gray-300: #e0dce4;
+  --gray-400: #D1CBD7;
+  --gray-500: #6b6572;
+  --gray-600: #262428;
+
+  --green-dark: #2d6c4a;
+  --green-light: #bfe3d0;
+
+  --purple-light: #ddd2ef;
+  --purple-dark: #6f3cc3;
+}

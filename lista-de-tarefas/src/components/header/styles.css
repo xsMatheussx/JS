@@ -1,0 +1,14 @@
+header {
+  width: 23.4375rem;
+  height: 10.8125rem;
+
+  background-color: var(--gray-300);
+}
+.logo{
+  padding-bottom: 3.6875rem;
+  padding-top: 4.875rem;
+  padding-left: 8.4375rem;
+  padding-right: 8.4375rem;
+  align-items: center;
+  justify-content: center;
+}

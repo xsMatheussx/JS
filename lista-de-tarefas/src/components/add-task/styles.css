@@ -1,0 +1,29 @@
+.input-adicionar {
+  width: 16.6875rem;
+  height: 3.25rem;
+  border: 2px solid var(--gray-300);
+  border-radius: 0.5rem;
+  color: var(--gray-500);
+  font: var(--ag-input);
+}
+.button-add {
+  width: 3.25rem;
+  height: 3.25rem;
+  background-color: var(--purple-dark);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-icon {
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  top: 8.875rem;
+  left: 1.5rem;
+}
+.input-adicionar::placeholder {
+  padding-left: 1.125rem;
+}
